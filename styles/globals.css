@@ -1,0 +1,81 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+		Helvetica Neue, sans-serif;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+	cursor: pointer;
+
+	/* Remove default */
+	-webkit-appearance: none;
+
+	/* Now your own custom styles */
+	height: 24px;
+	width: 24px;
+	color: "#656565";
+	background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23777'><path d='M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z'/></svg>");
+}
+
+/* .color-palette {
+	position: absolute;
+	left: -300px;
+	margin-top: 10px;
+	display: none;
+}
+
+.color-circle:hover .color-palette {
+	display: flex;
+} */
+
+.color-palette-arrow {
+	top: -9px;
+	right: 30px;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	background-color: #fff;
+	transform: rotate(45deg);
+	border: 1px solid #ddd;
+	z-index: 1;
+}
+
+.Mui-completed {
+	color: #292929 !important;
+}
+
+.country_dropdown {
+	width: 100%;
+	padding: 0 16px;
+}
+
+.country_dropdown:focus-visible {
+	outline: none;
+}
+
+input {
+	background-color: #fff !important;
+}
+
+.box-shadow-1 {
+	box-shadow: 0px 4px 15px rgba(41, 41, 41, 0.15) !important;
+}
+
+.box-shadow-2 {
+	box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16) !important;
+}
+
+.MuiFormHelperText-root {
+	margin-left: 0;
+}
